@@ -38,29 +38,21 @@ body {
   grid-template-rows: auto auto auto;
   gap: 10px;
   margin-top: 10px;
+  align-items: center;
 }
 
-#controls div {
+#middle-row {
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
-#up {
-  grid-row: 1;
-  margin: 0 auto;
+#spacer {
+  width: 50px; /* Match button width */
+  height: 50px; /* Match button height */
 }
 
-#left {
-  grid-column: 1;
-}
-
-#right {
-  grid-column: 3;
-}
-
-#down {
-  grid-row: 3;
+#up, #down {
   margin: 0 auto;
 }
 
@@ -84,5 +76,16 @@ button:active {
   #game-board {
     width: 300px;
     height: 300px;
+  }
+
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  #spacer {
+    width: 40px; /* Match button width on smaller screens */
+    height: 40px; /* Match button height on smaller screens */
   }
 }
