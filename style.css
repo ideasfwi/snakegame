@@ -85,7 +85,7 @@ button:active {
   }
 
   #spacer {
-    width: 80px; /* Match button width on smaller screens */
+    width: 60px; /* Match button width on smaller screens */
     height: 40px; /* Match button height on smaller screens */
   }
 }
