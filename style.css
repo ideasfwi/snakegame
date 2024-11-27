@@ -48,7 +48,7 @@ body {
 }
 
 #spacer {
-  width: 70px; /* Match button width */
+  width: 50px; /* Match button width */
   height: 50px; /* Match button height */
 }
 
@@ -79,13 +79,13 @@ button:active {
   }
 
   button {
-    width: 40px;
-    height: 40px;
-    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
   }
 
   #spacer {
-    width: 60px; /* Match button width on smaller screens */
-    height: 40px; /* Match button height on smaller screens */
+    width: 70px; /* Match button width on smaller screens */
+    height: 50px; /* Match button height on smaller screens */
   }
 }
